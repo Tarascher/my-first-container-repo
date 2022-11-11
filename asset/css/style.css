@@ -1,8 +1,27 @@
 .authors-personal-data {
-  width: 300px;
+  width: 500px;
+}
+.general-information {
+  width: calc((100% - 1 * 2em));
 }
 .foto-personal {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
+}
+
+.general-information {
+  display: flex;
+  flex-direction: column;
+}
+.third-part {
+  width: calc(100% / 3);
+  padding: 60px 10px;
+  text-align: center;
+}
+.btn {
+  font-size: 15px;
+}
+.fs-7 {
+  text-align: justify;
 }
