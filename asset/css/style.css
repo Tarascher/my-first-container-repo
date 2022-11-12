@@ -1,9 +1,10 @@
 .general-information {
   flex-grow: 1;
 }
+
 .foto-personal {
-  width: 150px;
-  height: 150px;
+  width: 7rem;
+  height: 7rem;
   object-fit: cover;
 }
 
@@ -12,8 +13,8 @@
   flex-direction: column;
 }
 .third-part {
-  width: calc((100% - 2 * 1em) / 3);
-  padding: 70px 10px;
+  width: calc((20rem - 2 * 1em) / 3);
+  padding: 3rem 10px;
   text-align: center;
 }
 .btn {
