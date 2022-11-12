@@ -1,12 +1,9 @@
-.authors-personal-data {
-  width: 500px;
-}
 .general-information {
-  width: calc((100% - 1 * 2em));
+  flex-grow: 1;
 }
 .foto-personal {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
 }
 
@@ -15,13 +12,29 @@
   flex-direction: column;
 }
 .third-part {
-  width: calc(100% / 3);
-  padding: 60px 10px;
+  width: calc((100% - 2 * 1em) / 3);
+  padding: 70px 10px;
   text-align: center;
 }
 .btn {
   font-size: 15px;
 }
-.fs-7 {
+.text_param {
   text-align: justify;
+  font-size: 0.7rem;
+  line-height: 2;
+}
+.foto-personal {
+  margin: 20px;
+  transition: 0.7s;
+}
+.authors-personal-data:hover .foto-personal {
+  transform: scale(1.3);
+}
+.authors-personal-data .btn {
+  margin: 20px;
+  transition: 0.7s;
+}
+.authors-personal-data:hover .btn {
+  transform: scale(1.3);
 }
